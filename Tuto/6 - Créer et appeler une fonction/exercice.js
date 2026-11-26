@@ -9,15 +9,17 @@ console.log("moyenne", m);
 
 // exercice : 2 
 
-// function max(x, y) {
-//     if (x > y) {
-//         console.log("maximal", x)
-//     } else {
-//         console.log("maximal", y)
+function maximal(d, f) {
+    if (d > f) {
+        console.log("maximal", d)
+    } else {
+        console.log("maximal", f)
 
-//     }
-// }
-// max(10, 12)
+    }
+}
+maximal(10, 12)
+
+// exercice : 2
 
 function max(x, y) {
     let maximum = x;
@@ -26,4 +28,4 @@ function max(x, y) {
     }
     console.log("maximum", maximum)
 }
-max(18, 12)
+max(180, 115)
