@@ -7,7 +7,7 @@ function moyenne(a, b, c) {
 moyenne(10, 10, 10);
 console.log("moyenne", m);
 
-// exercice : 2 
+// exercice : 2 ; methode : 1
 
 function maximal(d, f) {
     if (d > f) {
@@ -19,7 +19,7 @@ function maximal(d, f) {
 }
 maximal(10, 12)
 
-// exercice : 2
+// exercice : 2 ; methode : 2
 
 function max(x, y) {
     let maximum = x;
